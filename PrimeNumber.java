@@ -7,7 +7,7 @@ Scanner sc=new Scanner(System.in);
   System.out.println("Enter the number to be checked for being prime: ");
   int number=sc.nextInt();
   int count=0;
-  
+  Sustem.out.println("");
   for(int i=1;i<=number;i++)
     if(number/i==0)
     {
